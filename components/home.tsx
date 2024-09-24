@@ -16,6 +16,24 @@ const HomeLayout = () => {
           <h1>Harvest Smarter, Store Better With Tipien Storage Solutions</h1>
         </div>
       </div>
+
+      <div>
+        <div>
+          <h2></h2>
+          <h3></h3>
+          <h3></h3>
+          <p></p>
+        </div>
+        <div>
+          <div>
+            <div>
+              <img />
+              <h4></h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
