@@ -3,7 +3,7 @@ import React from "react";
 
 const HomeLayout = () => {
   return (
-    <div>
+    <main>
       <section className="relative">
         <Image
           src="/hero.webp"
@@ -13,12 +13,12 @@ const HomeLayout = () => {
         />
 
         <div className="absolute inset-center  z-10 text-white bold text-6xl">
-          <h1>Harvest Smarter, Store Better With Tipien Storage Solutions</h1>
+          <h1 className="text-center">Harvest Smarter, Store Better With Tipien Storage Solutions</h1>
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className="flex flex-row w-full py-10 justify-between items-center width-max">
+        <div className="w-2/5">
           <h2>WHO WE ARE</h2>
           <p>
             Tipien Company Limited is a dynamic and innovative enterprise
@@ -32,48 +32,54 @@ const HomeLayout = () => {
             small-scale and large-scale farmers.
           </p>
         </div>
-        <div>
-          <img />
+        <div className="w-1/2 pl-5">
+          <Image
+            src="/hero.webp"
+            height={900}
+            width={1600}
+            alt="Good looking agricultural products"
+            className="rounded-xl"
+          />
         </div>
       </section>
 
-      <section>
+      <section className="py-10 w-full bg-creame flex flex-col justify-center items-center">
         <div>
-          <h2>WHY CHOOSE US</h2>
+          <h2 className="text-center pb-4">WHY CHOOSE US</h2>
         </div>
-        <div>
-          <div>
+        <div className="grid grid-cols-4 width-max mr-2">
+          <div className="bg-green-700 p-5 rounded-xl ">
             <img />
-            <h4>Expertise in Agricultural Storage</h4>
-            <p>
+            <h4 className="text-white text-center">Expertise in Agricultural Storage</h4>
+            <p className="text-white text-lg text-center">
               With years of experience in the agricultural storage industry, we
               understand the unique challenges farmers face and offer practical
               solutions tailored to their needs.
             </p>
           </div>
 
-          <div>
+          <div className="bg-green-700 p-5 rounded-xl mr-2 ml-2">
             <img />
-            <h4>Affordable Pricing</h4>
-            <p>
+            <h4 className="text-white text-center">Affordable Pricing</h4>
+            <p className="text-white text-lg text-center">
               We are committed to offering competitive prices, making our
               storage solutions accessible to farmers of all scales.
             </p>
           </div>
 
-          <div>
+          <div className="bg-green-700 p-5 rounded-xl mr-2 ml-2">
             <img />
-            <h4>Nationwide Reach</h4>
-            <p>
+            <h4 className="text-white text-center">Nationwide Reach</h4>
+            <p className="text-white text-lg text-center">
               Our efficient online sales and distribution system ensures that
               farmers in remote areas can access our products conveniently.
             </p>
           </div>
 
-          <div>
+          <div className="bg-green-700 p-5 rounded-xl ml-2">
             <img />
-            <h4>Customer Support</h4>
-            <p>
+            <h4 className="text-white text-center">Customer Support</h4>
+            <p className="text-white text-lg text-center">
               Tipien is dedicated to providing excellent customer service. Our
               team is always available to offer guidance and assistance
               regarding the best storage solutions for various crops.
@@ -82,12 +88,12 @@ const HomeLayout = () => {
         </div>
       </section>
 
-      <section>
-        <div>Would you like to know more about us?</div>
-        <div>Reach out to us today</div>
-        <button>CONTACT US</button>
+      <section className="flex flex-col justify-center items-center pt-10">
+        <div className="text-4xl text-center pb-5">Would you like to know more about us?</div>
+        <div className="text-4xl text-center pb-5">Reach out to us today</div>
+        <button className="text-xl text-center bg-green-800 text-white rounded-2xl px-5 py-3 hover:bg-white hover:text-green-800 border-2 border-green-800">CONTACT US</button>
       </section>
-    </div>
+    </main>
   );
 };
 
