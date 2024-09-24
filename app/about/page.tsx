@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const HomeLayout = () => {
+const About = () => {
   return (
     <div>
       <section className="relative">
@@ -91,4 +91,4 @@ const HomeLayout = () => {
   );
 };
 
-export default HomeLayout;
+export default About;
