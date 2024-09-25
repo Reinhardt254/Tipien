@@ -3,13 +3,14 @@ import React from "react";
 
 const HomeLayout = () => {
   return (
-    <main>
-      <section className="relative">
+    <main className="w-full">
+      <section className="relative w-full">
         <Image
           src="/hero.webp"
-          height={900}
-          width={1600}
+          height={1600}
+          width={900}
           alt="Good looking agricultural products"
+          className="w-full h-auto"
         />
 
         <div className="absolute inset-center  z-10 text-white bold text-6xl">
@@ -17,10 +18,10 @@ const HomeLayout = () => {
         </div>
       </section>
 
-      <section className="flex flex-row w-full py-10 justify-between items-center width-max">
+      <section className="flex flex-row w-full py-16 justify-between items-center width-max">
         <div className="w-2/5">
           <h2>WHO WE ARE</h2>
-          <p>
+          <p className="py-5">
             Tipien Company Limited is a dynamic and innovative enterprise
             specializing in the sale and distribution of high-quality storage
             bags, primarily targeting farmers through its efficient online
@@ -31,6 +32,8 @@ const HomeLayout = () => {
             affordable storage bags designed to meet the specific needs of both
             small-scale and large-scale farmers.
           </p>
+
+          <button className="text-xl text-center bg-green-700 text-white rounded-full px-5 py-3 hover:bg-white hover:text-green-700 border-2 border-green-700">LEARN MORE</button>
         </div>
         <div className="w-1/2 pl-5">
           <Image
@@ -43,9 +46,9 @@ const HomeLayout = () => {
         </div>
       </section>
 
-      <section className="py-10 w-full bg-creame flex flex-col justify-center items-center">
+      <section className="pb-28 pt-16 w-full bg-creame flex flex-col justify-center items-center">
         <div>
-          <h2 className="text-center pb-4">WHY CHOOSE US</h2>
+          <h2 className="text-center pb-10">WHY CHOOSE US</h2>
         </div>
         <div className="grid grid-cols-4 width-max mr-2">
           <div className="bg-green-700 p-5 rounded-xl ">
@@ -88,10 +91,10 @@ const HomeLayout = () => {
         </div>
       </section>
 
-      <section className="flex flex-col justify-center items-center pt-10">
+      <section className="flex flex-col justify-center items-center py-28">
         <div className="text-4xl text-center pb-5">Would you like to know more about us?</div>
         <div className="text-4xl text-center pb-5">Reach out to us today</div>
-        <button className="text-xl text-center bg-green-800 text-white rounded-2xl px-5 py-3 hover:bg-white hover:text-green-800 border-2 border-green-800">CONTACT US</button>
+        <button className="text-xl text-center bg-green-700 text-white rounded-full px-5 py-3 hover:bg-white hover:text-green-700 border-2 border-green-700">CONTACT US</button>
       </section>
     </main>
   );
