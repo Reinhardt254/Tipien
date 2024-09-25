@@ -33,6 +33,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.inset-bottom-center {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(-20%, -50%);
+}
+
 main{
   width: 100%;
   height: 100%;
