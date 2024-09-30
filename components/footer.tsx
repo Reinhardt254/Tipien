@@ -1,5 +1,3 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -20,7 +18,7 @@ const Footer = () => {
         <div className="pt-2">
           <h1 className="font-bold text-white">Socials</h1>
           <div className='flex mt-3 space-x-3'>
-          <Link href="https://chat.whatsapp.com/HWLc2uRKPMiCxtMjZtIuiP">
+          {/* <Link href="https://chat.whatsapp.com/HWLc2uRKPMiCxtMjZtIuiP">
                 <Image 
                   src="/assets/photos/wsapp.jpg"
                   width={30}
@@ -45,15 +43,15 @@ const Footer = () => {
                   alt="Twitter"
                   className='rounded'
                 />
-              </Link>
+              </Link> */}
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center pb-4 ">
+      {/* <div className="flex items-center justify-center pb-4 ">
         <h1 className="text-xs text-white ">Made by Reinhardt Lagat</h1>
         <h1 className="ml-5 text-xs text-white">Ⓒ2024</h1>
         <h1 className="ml-5 text-xs text-white">Twitter @_chirchirkip</h1>
-      </div>
+      </div> */}
       </div>
     </main>
   )

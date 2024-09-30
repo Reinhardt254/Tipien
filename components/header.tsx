@@ -32,7 +32,7 @@ const Header = () => {
       {/* ================Large devices================ */}
       <section className="flex flex-row items-center justify-center px-3 max-sm:hidden max-md:hidden">
         <Link
-          href="/About"
+          href="/about"
           className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
         >
           <h1 className="flex items-center justify-center font-bold text-center text-black hover:text-green-700">
@@ -40,7 +40,7 @@ const Header = () => {
           </h1>
         </Link>
         <Link
-          href="/Contact"
+          href="/products"
           className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
         >
           <h1 className="justify-center font-bold text-center text-black flex-center hover:text-green-700">
@@ -48,7 +48,7 @@ const Header = () => {
           </h1>
         </Link>
         <Link
-          href="/Donate"
+          href="/contact"
           className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
         >
           <h1 className="justify-center font-bold text-center text-black flex-center hover:text-green-700">
@@ -83,29 +83,29 @@ const Header = () => {
                 </div>
                 <div className="p-3 mt-0 font-bold text-start">
                   <Link
-                    href="/About"
+                    href="/about"
                     className="text-lg text-slate-900 hover:text-red-600"
                     onClick={() => setToggleDropDown(false)}
                   >
-                    About Us
+                    About
                   </Link>
                 </div>
                 <div className="p-3 font-bold text-start">
                   <Link
-                    href="/Contact"
+                    href="/products"
                     className="text-lg text-slate-900 hover:text-red-600"
                     onClick={() => setToggleDropDown(false)}
                   >
-                    Contact Us
+                    Products
                   </Link>
                 </div>
                 <div className="p-3 font-bold text-start">
                   <Link
-                    href="/Donate"
+                    href="/contact"
                     className="text-lg text-slate-900 hover:text-red-600"
                     onClick={() => setToggleDropDown(false)}
                   >
-                    Donate
+                    Contact
                   </Link>
                 </div>
               </div>
