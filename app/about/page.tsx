@@ -19,7 +19,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="flex flex-row w-full py-16 justify-between items-center width-max max-sm:flex-col">
+      <section className="flex flex-row w-full py-16 justify-between items-center width-max max-sm:flex-col bg-white">
         <div className="w-1/2 max-sm:w-full max-sm:px-2">
           <h2>WHO WE ARE</h2>
           <p className="py-5 pr-10 max-sm:p-0 max-sm:pb-8">
@@ -60,7 +60,7 @@ const About = () => {
           <div className="h-full width-max flex flex-row max-sm:flex-col items-center justify-between max-sm:px-2 max-sm:py-5">
             <div className=" bg-white w-full h-2/3 max-h-96 rounded-lg p-5 m-2 flex flex-col justify-center items-center">
               <h2 className="text-center font-normal text-xl">OUR MISSION</h2>
-              <p className="text-center py-2 text-lg">
+              <p className="text-center py-2 text-lg text-slate-900">
                 With a mission to ensure farmers preserve their crops
                 effectively, Tipien offers a wide range of durable and
                 affordable storage bags designed to meet the specific needs of
@@ -70,7 +70,7 @@ const About = () => {
 
             <div className=" bg-white w-full h-2/3  max-h-96  rounded-lg p-5 m-2 flex flex-col justify-center items-center">
               <h2 className="text-center font-normal text-xl">OUR VISION</h2>
-              <p className="text-center py-2 text-lg">
+              <p className="text-center py-2 text-lg text-slate-900">
                 With a mission to ensure farmers preserve their crops
                 effectively, Tipien offers a wide range of durable and
                 affordable storage bags designed to meet the specific needs of
@@ -80,7 +80,7 @@ const About = () => {
 
             <div className=" bg-white w-full h-2/3  max-h-96  rounded-lg p-5 m-2 flex flex-col justify-center items-center">
               <h2 className="text-center font-normal text-xl">OUR Values</h2>
-              <p className="text-center py-2 text-lg">
+              <p className="text-center py-2 text-lg text-slate-900">
                 With a mission to ensure farmers preserve their crops
                 effectively, Tipien offers a wide range of durable and
                 affordable storage bags designed to meet the specific needs of
@@ -133,7 +133,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="flex flex-col justify-center items-center py-28 max-sm:py-20 max-sm:px-4">
+      <section className="flex flex-col justify-center items-center py-28 max-sm:py-20 max-sm:px-4 bg-white">
         <div className="text-4xl max-sm:text-3xl text-center pb-5">
           Would you like to know more about us?
         </div>

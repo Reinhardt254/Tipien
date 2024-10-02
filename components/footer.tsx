@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -6,14 +7,70 @@ const Footer = () => {
        <div className="pt-2 pb-2 bg-black w-full"> 
       <div className="flex-col justify-around pb-3 mx-10 my-3 border-b sm:flex-row md:flex">
         <div className="pt-2">
-          <h1 className="font-bold text-white">Contact Us</h1>
-          <p className="text-white">07000000</p>
-          <p className="text-white">tipien@gmail.com</p>
+        <Link
+          href="/about"
+          className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+        >
+          <h1 className="flex items-center justify-center font-bold text-center text-white hover:text-green-700">
+            ABOUT
+          </h1>
+        </Link>
+        <Link
+          href="/products"
+          className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+        >
+          <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
+            PRODUCTS
+          </h1>
+        </Link>
+        <Link
+          href="/contact"
+          className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+        >
+          <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
+            CONTACT
+          </h1>
+        </Link>
+        <Link
+          href="/products"
+          className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+        >
+          <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
+            PRODUCTS
+          </h1>
+        </Link>
+        <Link
+          href="/contact"
+          className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+        >
+          <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
+            CONTACT
+          </h1>
+        </Link>
+        <Link
+          href="/products"
+          className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+        >
+          <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
+            PRODUCTS
+          </h1>
+        </Link>
+        <Link
+          href="/contact"
+          className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+        >
+          <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
+            CONTACT
+          </h1>
+        </Link>
         </div>
         <div className="pt-2">
           <h1 className="font-bold text-white">Location</h1>
           <h1 className="text-white">Nairobi Kenya</h1>
           <h1 className="text-white">Nairobi county</h1>
+          <h1 className="font-bold text-white">Contact Us</h1>
+          <p className="text-white">07000000</p>
+          <p className="text-white">tipien@gmail.com</p>
         </div>
         <div className="pt-2">
           <h1 className="font-bold text-white">Socials</h1>

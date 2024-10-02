@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Products = () => {
   return (
-    <main className="bg-creame">
+    <main className="primary-colour">
       <section className="relative w-full">
         <Image
           src="/hero.webp"
@@ -12,7 +12,7 @@ const Products = () => {
           alt="Good looking agricultural products"
           className="w-full h-auto min-h-96"
         />
-
+ 
         <div className="absolute inset-center  z-10 text-white bold text-6xl max-sm:text-3xl max-sm:w-screen box-border">
           <h1 className="text-center">OUR PRODUCTS</h1>
         </div>
@@ -20,7 +20,7 @@ const Products = () => {
 
       <section className="py-20">
         <div className="width-max grid grid-cols-3 gap-10 max-sm:grid-cols-1">
-          <div className="bg-white rounded-lg">
+          <div className="primary-colour rounded-lg">
             <Image
               src="/hero.webp"
               height={1600}
@@ -30,7 +30,7 @@ const Products = () => {
             />
             <h2>Floor bag</h2>
           </div>
-          <div className="bg-white rounded-lg">
+          <div className="primary-colour rounded-lg">
             <Image
               src="/hero.webp"
               height={1600}
@@ -40,7 +40,7 @@ const Products = () => {
             />
             <h2>Floor bag</h2>
           </div>
-          <div className="bg-white rounded-lg">
+          <div className="primary-colour rounded-lg">
             <Image
               src="/hero.webp"
               height={1600}
