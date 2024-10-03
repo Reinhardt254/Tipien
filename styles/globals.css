@@ -14,42 +14,6 @@
   }
 } */
 
-.custom-shape-divider-bottom-1727875588 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1727875588 svg {
-  position: relative;
-  display: block;
-  width: calc(250% + 2px);
-  height: 200px;
-}
-
-.custom-shape-divider-bottom-1727875588 .shape-fill {
-  fill: #FFFFFFFC;
-}
-
-/** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
-  .custom-shape-divider-bottom-1727875588 svg {
-      width: calc(250% + 1.3px);
-      height: 100px;
-  }
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-  .custom-shape-divider-bottom-1727875588 svg {
-      width: calc(240% + 1.3px);
-      height: 80px;
-  }
-}
-
 body {
   color: var(--foreground);
   background: var(--background);

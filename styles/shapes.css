@@ -1,0 +1,92 @@
+.home-layout-divider {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+ }
+ 
+ .home-layout-divider svg {
+   position: relative;
+   display: block;
+   width: calc(250% + 2px);
+   height: 200px;
+ }
+ 
+ .home-layout-divider .shape-fill {
+   fill: #FFFFFFFC;
+ }
+ 
+ /** For tablet devices **/
+ @media (min-width: 768px) and (max-width: 1023px) {
+   .home-layout-divider svg {
+       width: calc(250% + 1.3px);
+       height: 100px;
+   }
+ }
+ 
+ /** For mobile devices **/
+ @media (max-width: 767px) {
+   .home-layout-divider svg {
+       width: calc(260% + 1.3px);
+       height: 80px;
+   }
+ }
+
+ /* -------------FOOTER----------- */
+
+
+ .footer-layout-divider {
+   position: absolute;
+   top: -50%;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+ }
+ 
+ .footer-layout-divider svg {
+   position: relative;
+   display: block;
+   width: calc(250% + 2px);
+   height: 200px;
+ }
+ 
+ .footer-layout-divider .shape-fill {
+   fill: blck;
+ }
+ 
+ /** For tablet devices **/
+ @media (min-width: 768px) and (max-width: 1023px) {
+   .footer-layout-divider svg {
+       width: calc(250% + 1.3px);
+       height: 150px;
+   }
+
+   .footer-layout-divider {
+      position: absolute;
+      top: -40%;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+ }
+ 
+ /** For mobile devices **/
+ @media (max-width: 767px) {
+   .footer-layout-divider svg {
+       width: calc(255% + 1.3px);
+       height: 100px;
+   }
+
+   .footer-layout-divider {
+      position: absolute;
+      top: -20%;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+    }
+ }

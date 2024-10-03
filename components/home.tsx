@@ -19,7 +19,7 @@ const HomeLayout = () => {
             Harvest Smarter, Store Better With Tipien Storage Solutions
           </h1>
         </div>
-        <div className="custom-shape-divider-bottom-1727875588">
+        <div className="home-layout-divider">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -36,16 +36,16 @@ const HomeLayout = () => {
 
       <section className="flex flex-row w-full pb-32 pt-0 justify-center items-center width-max max-sm:flex-col relative">
         <div className="w-3/4 max-sm:w-full max-sm:px-2 flex flex-col justify-start items-center text-center">
-          <h2 className="text-center text-3xl">WHAT WE DO</h2>
-          <h3 className="text-4xl pt-5 font-bold">
-            Tipien Company Limited is a dynamic and
+          <h2 className="text-center text-3xl max-sm:text-xl font-medium">WHAT WE DO</h2>
+          <h3 className="text-4xl max-sm:text-2xl pt-5 font-bold">
+            Tipien Company Limited is a dynamic
           </h3>
-          <h3 className="text-4xl pt-5 font-light">Tipien Company Limited </h3>
-          <p className="py-5 pr-0 max-sm:p-0 max-sm:pb-8 text-center">
+          <h3 className="text-2xl pt-5 font-light">Tipien Company Limited </h3>
+          <p className="py-5 pr-0 max-sm:pt-5 max-sm:pb-8 text-center">
             Tipien Company Limited is a dynamic and innovative enterprise
           </p>
 
-          <div className="grid grid-cols-3 width-max max-md:grid-cols-1 pt-10">
+          <div className="grid grid-cols-3 gap-y-2 width-max max-md:grid-cols-1 pt-10">
             <div className="secondary-colour mr-2 p-5 rounded-xl flex flex-col justify-start items-center max-sm:m-0 shadow-2xl">
               <Image
                 src="/storage.png"
@@ -103,15 +103,8 @@ const HomeLayout = () => {
         </div>
       </section>
 
-      <section className="w-full relative">
-        <Image
-          src="/bag.jpg"
-          height={800}
-          width={1600}
-          alt="Good looking agricultural products"
-          className="w-full max-sm:min-h-96 h-[600px]"
-        />
-        <div className="absolute bottom-24 right-24 max-sm:bottom-5 max-sm:right-5 bg-white w-[500px] h-[350px] max-sm:w-auto max-sm:h-5/6 max-sm:left-5 rounded-lg p-5 flex flex-col justify-center items-center">
+      <section className="w-full relative h-[500px] bg-green-700">
+        <div className="absolute bottom-24 right-24 max-sm:bottom-5 max-sm:right-5 bg-white w-[450px] max-h-[350px] max-sm:w-auto max-sm:h-5/6 max-sm:left-5 rounded-lg px-5 py-10 max-sm:p-5 max-sm:pt-6 flex flex-col justify-center items-center">
           <h2 className="text-center font-normal text-xl">
             OUR PRODUCTS CATALOGUE
           </h2>
@@ -205,7 +198,7 @@ const HomeLayout = () => {
         </div>
       </section>
 
-      <section className="flex flex-col justify-center items-center py-28 max-sm:py-20 max-sm:px-4 bg-white w-full">
+      <section className="flex flex-col justify-center items-center py-28 pb-40 max-sm:pt-28 max-sm:pb-40 max-sm:px-4 bg-white w-full">
         <div className="text-4xl max-sm:text-3xl text-center pb-5">
           Would you like to know more about us?
         </div>
