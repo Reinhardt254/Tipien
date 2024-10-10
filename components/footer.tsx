@@ -18,105 +18,48 @@ const Footer = () => {
         </svg>
       </div>
       <div className="pt-10 pb-10 bg-black w-full z-10">
-        <div className="flex-col justify-around pb-3 mx-10 my-3 border-b sm:flex-row md:flex">
-          <div className="pt-2">
+
+        <div className="flex flex-col justify-around pb-10 mx-10 border-b sm:flex-row md:flex">
+          <section className="flex flex-col max-sm:w-full max-sm:justify-center max-sm:items-center">
+            <div className="text-white">Logo Image</div>
+          </section>
+
+          <section className="flex flex-col max-sm:w-full max-sm:justify-center max-sm:items-center max-sm: py-5">
+          <Link
+              href="/"
+              className="mx-8 rounded-sm font-medium pb-3 text-white hover:text-green-700"
+            >
+                Home
+            </Link>
             <Link
               href="/about"
-              className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+              className="mx-8 rounded-sm font-medium pb-3 text-white hover:text-green-700"
             >
-              <h1 className="flex items-center justify-center font-bold text-center text-white hover:text-green-700">
-                ABOUT
-              </h1>
+                About
             </Link>
             <Link
               href="/products"
-              className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+              className="mx-8 rounded-sm font-medium pb-3 text-white hover:text-green-700"
             >
-              <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
-                PRODUCTS
-              </h1>
+                Products
             </Link>
             <Link
               href="/contact"
-              className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
+              className="mx-8 rounded-sm font-medium pb-3 text-white hover:text-green-700"
             >
-              <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
-                CONTACT
-              </h1>
+                Contact
             </Link>
-            <Link
-              href="/products"
-              className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
-            >
-              <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
-                PRODUCTS
-              </h1>
-            </Link>
-            <Link
-              href="/contact"
-              className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
-            >
-              <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
-                CONTACT
-              </h1>
-            </Link>
-            <Link
-              href="/products"
-              className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
-            >
-              <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
-                PRODUCTS
-              </h1>
-            </Link>
-            <Link
-              href="/contact"
-              className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"
-            >
-              <h1 className="justify-center font-bold text-center text-white flex-center hover:text-green-700">
-                CONTACT
-              </h1>
-            </Link>
-          </div>
-          <div className="pt-2">
-            <h1 className="font-bold text-white">Location</h1>
-            <h1 className="text-white">Nairobi Kenya</h1>
-            <h1 className="text-white">Nairobi county</h1>
-            <h1 className="font-bold text-white">Contact Us</h1>
-            <p className="text-white">07000000</p>
-            <p className="text-white">tipien@gmail.com</p>
-          </div>
-          <div className="pt-2">
-            <h1 className="font-bold text-white">Socials</h1>
-            <div className="flex mt-3 space-x-3">
-              {/* <Link href="https://chat.whatsapp.com/HWLc2uRKPMiCxtMjZtIuiP">
-                <Image 
-                  src="/assets/photos/wsapp.jpg"
-                  width={30}
-                  height={30}
-                  alt="Twitter"
-                  className='rounded'
-                />
-              </Link>
-           <Link href="https://instagram.com/helping.hearts.foundation.ke?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">
-                <Image 
-                  src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg"
-                  width={30}
-                  height={30}
-                  alt="instagram"
-                />
-            </Link>
-            <Link href="www.twitter.com">
-                <Image 
-                  src="/assets/photos/x.png"
-                  width={30}
-                  height={30}
-                  alt="Twitter"
-                  className='rounded'
-                />
-              </Link> */}
-            </div>
-          </div>
+          </section>
+
+          <section className="h-full flex flex-col justify-start items-start text-white max-sm:w-full max-sm:justify-center max-sm:items-center">
+            <h3 className="pb-1">Eldoret Kenya</h3>
+            <h3 className="pb-1">Uasingishu county</h3>
+            <h3 className="pb-1">Tipien Company Limited</h3>
+            <h3 className="pb-1">07000000</h3>
+            <h3 className="pb-1">tipien@gmail.com</h3>
+          </section>
         </div>
+
         {/* <div className="flex items-center justify-center pb-4 ">
         <h1 className="text-xs text-white ">Made by Reinhardt Lagat</h1>
         <h1 className="ml-5 text-xs text-white">Ⓒ2024</h1>
