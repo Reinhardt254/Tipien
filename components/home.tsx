@@ -36,7 +36,9 @@ const HomeLayout = () => {
 
       <section className="flex flex-row w-full pb-32 pt-0 justify-center items-center width-max max-sm:flex-col relative">
         <div className="w-3/4 max-sm:w-full max-sm:px-2 flex flex-col justify-start items-center text-center">
-          <h2 className="text-center text-3xl max-sm:text-xl font-medium">WHAT WE DO</h2>
+          <h2 className="text-center text-3xl max-sm:text-xl font-medium">
+            WHAT WE DO
+          </h2>
           <h3 className="text-4xl max-sm:text-2xl pt-5 font-bold">
             Tipien Company Limited is a dynamic
           </h3>
@@ -103,19 +105,30 @@ const HomeLayout = () => {
         </div>
       </section>
 
-      <section className="w-full relative h-[500px] bg-green-700">
-        <div className="absolute bottom-24 right-24 max-sm:bottom-5 max-sm:right-5 bg-white w-[450px] max-h-[350px] max-sm:w-auto max-sm:h-5/6 max-sm:left-5 rounded-lg px-5 py-10 max-sm:p-5 max-sm:pt-6 flex flex-col justify-center items-center">
-          <h2 className="text-center font-normal text-xl">
-            OUR PRODUCTS CATALOGUE
-          </h2>
-          <p className="text-center py-2 text-lg">
-            With a mission to ensure farmers preserve their crops effectively,
-            Tipien offers a wide range of durable and affordable storage bags
-            designed to meet the specific needs of both small-scale and
-            large-scale farmers.
-          </p>
+      <section className="w-full relative h-[500px] max-sm:h-auto max-sm:py-10 bg-green-700 flex justify-center items-center">
+        <div className="flex justify-between items-center w-full width-max max-sm:px-2 max-sm:flex-col">
+          <div className="max-sm:pb-5">
+            <Image
+              src="/hero.webp"
+              height={600}
+              width={600}
+              alt="Good looking agricultural products"
+              className="w-full h-auto min-h-96"
+            />
+          </div>
+          <div className="max-sm:bottom-5 max-sm:right-5 bg-white w-[450px] max-h-[350px] max-sm:w-auto max-sm:h-5/6 max-sm:left-5 rounded-lg px-5 py-10 max-sm:px-5 max-sm:py-10 flex flex-col justify-center items-center">
+            <h2 className="text-center font-normal text-xl">
+              OUR PRODUCTS CATALOGUE
+            </h2>
+            <p className="text-center py-2 text-lg">
+              With a mission to ensure farmers preserve their crops effectively,
+              Tipien offers a wide range of durable and affordable storage bags
+              designed to meet the specific needs of both small-scale and
+              large-scale farmers.
+            </p>
 
-          <Button value="LEARN MORE" />
+            <Button value="LEARN MORE" />
+          </div>
         </div>
       </section>
 
