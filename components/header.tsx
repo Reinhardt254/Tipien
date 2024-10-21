@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
-import Image from "next/image";
 
 const Header = () => {
   const [toggleDropDown, setToggleDropDown] = useState(false);

@@ -48,11 +48,11 @@ const HomeLayout = () => {
             WHAT WE DO
           </h2>
           <h3 className="text-4xl max-sm:text-2xl pt-5 font-bold">
-            Tipien Company Limited is a dynamic
+            Tipien Company Limited 
           </h3>
-          <h3 className="text-2xl pt-5 font-light">Tipien Company Limited </h3>
+          <h3 className="text-2xl pt-5 font-light">Transforming food storage in the agricultural sector</h3>
           <p className="py-5 pr-0 max-sm:pt-5 max-sm:pb-8 text-center">
-            Tipien Company Limited is a dynamic and innovative enterprise
+            Advanced, durable, accessible, Transformative
           </p>
 
           <div className="grid grid-cols-3 gap-y-2 width-max max-md:grid-cols-1 pt-10">
