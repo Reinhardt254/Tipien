@@ -10,16 +10,17 @@ const Header = () => {
   return (
     <main className="flex flex-row justify-between items-center w-full bg-white md:px-40 md:py-2 relative">
       <Link
-        className="flex justify-center pl-5 text-lg font-bold text-gray-950"
+        className="flex justify-center items-center pl-5 text-lg font-bold text-gray-950"
         href="/"
       >
-        <div>
-          <Image
+        <div className="h-16 flex justify-center items-center text-xl">
+          {/* <Image
             src="/assets/photos/logo.jpg"
             alt="logo"
             width={60}
             height={60}
-          />
+          /> */}
+          Tipien
         </div>
       </Link>
 

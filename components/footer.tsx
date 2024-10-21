@@ -21,7 +21,7 @@ const Footer = () => {
 
         <div className="flex flex-col justify-around pb-10 mx-10 border-b sm:flex-row md:flex">
           <section className="flex flex-col max-sm:w-full max-sm:justify-center max-sm:items-center">
-            <div className="text-white">Logo Image</div>
+            <div className="text-white">Tipien</div>
           </section>
 
           <section className="flex flex-col max-sm:w-full max-sm:justify-center max-sm:items-center max-sm: py-5">
@@ -55,8 +55,8 @@ const Footer = () => {
             <h3 className="pb-1">Eldoret Kenya</h3>
             <h3 className="pb-1">Uasingishu county</h3>
             <h3 className="pb-1">Tipien Company Limited</h3>
-            <h3 className="pb-1">07000000</h3>
-            <h3 className="pb-1">tipien@gmail.com</h3>
+            <h3 className="pb-1">0707129725</h3>
+            <h3 className="pb-1">tipienlimited@gmail.com</h3>
           </section>
         </div>
 

@@ -7,17 +7,23 @@ const About = () => {
     <main className="w-full">
       <section className="relative w-full">
         <Image
-          src="/hero.webp"
-          height={1600}
-          width={900}
+          src="/cobs.jpg"
+          height={800}
+          width={1600}
           alt="Good looking agricultural products"
-          className="w-full h-auto min-h-96"
+          className="w-full h-auto hidden-sm darken"
+        />
+
+        <Image
+          src="/cobsmob.jpg"
+          height={800}
+          width={800}
+          alt="Good looking agricultural products"
+          className="w-full h-auto hidden-lg darken"
         />
 
         <div className="absolute inset-center  z-10 text-white bold text-6xl max-sm:text-3xl max-sm:w-screen box-border">
-          <h1 className="text-center">
-            Harvest Smarter, Store Better With Tipien Storage Solutions
-          </h1>
+          <h1 className="text-center drop-shadow-2xl">ABOUT</h1>
         </div>
         <div className="home-layout-divider">
           <svg

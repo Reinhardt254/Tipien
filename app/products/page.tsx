@@ -7,15 +7,36 @@ const Products = () => {
     <main className="primary-colour">
       <section className="relative w-full">
         <Image
-          src="/hero.webp"
-          height={1600}
-          width={900}
+          src="/beans.jpg"
+          height={800}
+          width={1600}
           alt="Good looking agricultural products"
-          className="w-full h-auto min-h-96"
+          className="w-full h-auto min-h-96 hidden-sm darken"
+        />
+
+        <Image
+          src="/beansmob.jpg"
+          height={800}
+          width={800}
+          alt="Good looking agricultural products"
+          className="w-full h-auto min-h-96 hidden-lg darken"
         />
 
         <div className="absolute inset-center  z-10 text-white bold text-6xl max-sm:text-3xl max-sm:w-screen box-border">
           <h1 className="text-center">OUR PRODUCTS</h1>
+        </div>
+        <div className="home-layout-divider">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              className="shape-fill"
+            ></path>
+          </svg>
         </div>
       </section>
 

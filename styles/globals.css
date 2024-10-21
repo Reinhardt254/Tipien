@@ -103,3 +103,26 @@ p {
 .accent-colour {
   background-color: #17724D;
 }
+
+
+.hidden-lg{
+  display: none;
+}
+
+.hidden-sm{
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .hidden-sm{
+    display: none;
+  }
+
+  .hidden-lg{
+    display: block;
+  }
+}
+
+.darken{
+  filter: brightness(70%)
+}

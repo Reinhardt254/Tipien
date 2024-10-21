@@ -7,15 +7,23 @@ const HomeLayout = () => {
     <main className="w-full">
       <section className="relative w-full">
         <Image
-          src="/hero.webp"
-          height={1600}
-          width={900}
+          src="/maizefield.jpg"
+          height={800}
+          width={1600}
           alt="Good looking agricultural products"
-          className="w-full h-auto min-h-96"
+          className="w-full h-auto hidden-sm darken"
+        />
+
+        <Image
+          src="/maizefieldmob.jpg"
+          height={800}
+          width={800}
+          alt="Good looking agricultural products"
+          className="w-full h-auto hidden-lg darken"
         />
 
         <div className="absolute inset-center  z-10 text-white bold text-6xl max-sm:text-3xl max-sm:w-screen box-border">
-          <h1 className="text-center">
+          <h1 className="text-center drop-shadow-2xl shadow-slate-950">
             Harvest Smarter, Store Better With Tipien Storage Solutions
           </h1>
         </div>
@@ -54,7 +62,7 @@ const HomeLayout = () => {
                 height={100}
                 width={100}
                 alt="storage"
-                className="w-20 h-auto"
+                className="w-20 h-auto max-sm:w-16"
               />
               <h4 className="text-green-700 text-center pt-2">Custom bags</h4>
               <p className="text-slate-700 text-lg text-center pt-2">
@@ -65,11 +73,11 @@ const HomeLayout = () => {
             </div>
             <div className="secondary-colour mr-2 p-5 rounded-xl flex flex-col justify-start items-center max-sm:m-0 shadow-2xl">
               <Image
-                src="/storage.png"
+                src="/tank.png"
                 height={100}
                 width={100}
                 alt="storage"
-                className="w-20 h-auto"
+                className="w-20 h-auto max-sm:w-16"
               />
               <h4 className="text-green-700 text-center pt-2">
                 Storage Solutions
@@ -82,11 +90,11 @@ const HomeLayout = () => {
             </div>
             <div className="secondary-colour mr-2 p-5 rounded-xl flex flex-col justify-start items-center max-sm:m-0 shadow-2xl">
               <Image
-                src="/storage.png"
+                src="/location.png"
                 height={100}
                 width={100}
                 alt="storage"
-                className="w-20 h-auto"
+                className="w-20 h-auto max-sm:w-16"
               />
               <h4 className="text-green-700 text-center pt-2">
                 Countrywide Delivery
@@ -105,18 +113,18 @@ const HomeLayout = () => {
         </div>
       </section>
 
-      <section className="w-full relative h-[500px] max-sm:h-auto max-sm:py-10 bg-green-700 flex justify-center items-center">
+      <section className="w-full relative h-[550px] max-sm:h-auto max-sm:py-10 bg-green-700 flex justify-center items-center">
         <div className="flex justify-between items-center w-full width-max max-sm:px-2 max-sm:flex-col">
           <div className="max-sm:pb-5">
             <Image
               src="/yellow.png"
-              height={900}
-              width={900}
+              height={408}
+              width={612}
               alt="Good looking agricultural products"
-              className="w-full h-auto min-h-96"
+              className="w-full h-auto"
             />
           </div>
-          <div className="max-sm:bottom-5 max-sm:right-5 bg-white w-[500px] max-h-[450px] max-sm:w-auto max-sm:h-5/6 max-sm:left-5 rounded-lg px-5 py-32 max-sm:px-5 max-sm:py-10 flex flex-col justify-center items-center">
+          <div className="max-sm:bottom-5 max-sm:right-5 bg-white w-[500px] max-h-[450px] max-sm:w-auto max-sm:h-5/6 max-sm:left-5 rounded-lg px-5 py-20 max-sm:px-5 max-sm:py-10 flex flex-col justify-center items-center">
             <h2 className="text-center font-normal text-xl">
               OUR PRODUCTS CATALOGUE
             </h2>
@@ -145,7 +153,7 @@ const HomeLayout = () => {
               height={100}
               width={100}
               alt="storage"
-              className="w-20 h-auto"
+              className="w-20 h-auto max-sm:w-16"
             />
             <h4 className="text-green-700 text-center pt-2">
               Expertise in Agricultural Storage
@@ -163,7 +171,7 @@ const HomeLayout = () => {
               height={100}
               width={100}
               alt="Pricing"
-              className="w-20 h-auto"
+              className="w-20 h-auto max-sm:w-16"
             />
             <h4 className="text-green-700 text-center pt-2">
               Affordable Pricing
@@ -180,7 +188,7 @@ const HomeLayout = () => {
               height={100}
               width={100}
               alt="Location"
-              className="w-20 h-auto"
+              className="w-20 h-auto max-sm:w-16"
             />
             <h4 className="text-green-700 text-center pt-2">
               Nationwide Reach
@@ -197,7 +205,7 @@ const HomeLayout = () => {
               height={100}
               width={100}
               alt="customer support"
-              className="w-20 h-auto"
+              className="w-20 h-auto max-sm:w-16"
             />
             <h4 className="text-green-700 text-center pt-2">
               Customer Support
