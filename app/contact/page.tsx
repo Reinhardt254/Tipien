@@ -32,7 +32,6 @@ const Contact = () => {
   const onSubmit = async (data: FieldValues) => {
     setIsDisabled(true);
 
-
     // Prepare form data for Google Apps Script
     const formData = new URLSearchParams();
     formData.append("name", data.name);

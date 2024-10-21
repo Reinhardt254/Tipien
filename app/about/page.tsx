@@ -54,9 +54,9 @@ const About = () => {
         </div>
         <div className="w-1/2 pl-5 max-sm:w-full max-sm:p-0 max-sm:pt-10">
           <Image
-            src="/hero.webp"
+            src="/gunia.png"
             height={900}
-            width={1600}
+            width={900}
             alt="Good looking agricultural products"
             className="rounded-xl max-sm:rounded-none"
           />
@@ -97,7 +97,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className="py-16 relative h-full w-full flex flex-col justify-center items-center">
+      {/* <section className="py-16 relative h-full w-full flex flex-col justify-center items-center">
         <h2 className="text-center pb-10 text-green-700">OUR GALLERY</h2>
         <div className="w-full width-max h-full flex">
           <div className="flex flex-col w-2/3">
@@ -137,7 +137,7 @@ const About = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="flex flex-col justify-center items-center py-28 pb-40 max-sm:pt-28 max-sm:pb-40 max-sm:px-4 bg-white w-full">
         <div className="text-4xl max-sm:text-3xl text-center pb-5">

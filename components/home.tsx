@@ -109,14 +109,14 @@ const HomeLayout = () => {
         <div className="flex justify-between items-center w-full width-max max-sm:px-2 max-sm:flex-col">
           <div className="max-sm:pb-5">
             <Image
-              src="/hero.webp"
-              height={600}
-              width={600}
+              src="/yellow.png"
+              height={900}
+              width={900}
               alt="Good looking agricultural products"
               className="w-full h-auto min-h-96"
             />
           </div>
-          <div className="max-sm:bottom-5 max-sm:right-5 bg-white w-[450px] max-h-[350px] max-sm:w-auto max-sm:h-5/6 max-sm:left-5 rounded-lg px-5 py-10 max-sm:px-5 max-sm:py-10 flex flex-col justify-center items-center">
+          <div className="max-sm:bottom-5 max-sm:right-5 bg-white w-[500px] max-h-[450px] max-sm:w-auto max-sm:h-5/6 max-sm:left-5 rounded-lg px-5 py-32 max-sm:px-5 max-sm:py-10 flex flex-col justify-center items-center">
             <h2 className="text-center font-normal text-xl">
               OUR PRODUCTS CATALOGUE
             </h2>

@@ -19,17 +19,17 @@ const Products = () => {
         </div>
       </section>
 
-      <section className="pt-20 pb-32">
+      <section className="pt-20 pb-32 max-sm:pb-10">
         <div className="width-max grid grid-cols-2 gap-10 max-sm:grid-cols-1">
-          <div className="bg-white rounded-b-md shadow rounded-sm">
+          <div className="bg-white rounded-b-md shadow rounded-sm p-5 flex flex-col justify-center items-center">
             <Image
-              src="/hero.webp"
-              height={900}
-              width={900}
+              src="/pink.png"
+              height={500}
+              width={500}
               alt="Good looking agricultural products"
-              className="w-full h-auto min-h- rounded-t-sm"
+              className="w-2/3 h-auto min-h- rounded-t-sm"
             />
-            <h2 className="text-2xl">Pink Panel 90 Grams</h2>
+            <h2 className="text-2xl pt-5">Pink Panel 90 Grams</h2>
             <p className="text-lg text-gray-800">
               The Pink Panel 90 Grams is a durable, lightweight solution for
               farmers looking to protect their produce from moisture and pests.
@@ -40,15 +40,15 @@ const Products = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-b-md shadow rounded-sm">
+          <div className="bg-white rounded-b-md shadow rounded-sm p-5 flex flex-col justify-center items-center">
             <Image
-              src="/hero.webp"
-              height={900}
-              width={900}
+              src="/3sacks.png"
+              height={500}
+              width={500}
               alt="Good looking agricultural products"
-              className="w-full h-auto min-h- rounded-t-sm"
+              className="w-2/3 h-auto min-h- rounded-t-sm"
             />
-            <h2 className="text-2xl">Pink Panel 120 Grams</h2>
+            <h2 className="text-2xl pt-5">Pink Panel 120 Grams</h2>
             <p className="text-lg text-gray-800">
               The Pink Panel 120 Grams provides enhanced strength and durability
               for long-term storage needs. This panel is ideal for farmers
@@ -59,15 +59,15 @@ const Products = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-b-md shadow rounded-sm">
+          <div className="bg-white rounded-b-md shadow rounded-sm p-5 flex flex-col justify-center items-center">
             <Image
-              src="/hero.webp"
+              src="/sackscollection.png"
               height={900}
               width={900}
               alt="Good looking agricultural products"
-              className="w-full h-auto min-h- rounded-t-sm"
+              className="w-72 h-auto min-h- rounded-t-sm"
             />
-            <h2 className="text-2xl">Pink Panel 140 Grams</h2>
+            <h2 className="text-2xl pt-5">Pink Panel 140 Grams</h2>
             <p className="text-lg text-gray-800">
               The Pink Panel 140 Grams is the ultimate solution for robust
               storage, providing maximum protection against pests, moisture, and
@@ -79,15 +79,15 @@ const Products = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-b-md shadow rounded-sm">
+          <div className="bg-white rounded-b-md shadow rounded-sm p-5 flex flex-col justify-center items-center">
             <Image
-              src="/hero.webp"
+              src="/hermatic.jpg"
               height={900}
               width={900}
               alt="Good looking agricultural products"
-              className="w-full h-auto min-h- rounded-t-sm"
+              className="w-2/3 h-auto min-h- rounded-t-sm"
             />
-            <h2 className="text-2xl">Hermetic Storage Bag</h2>
+            <h2 className="text-2xl pt-5">Hermetic Storage Bag</h2>
             <p className="text-lg text-gray-800">
               The Hermetic Storage Bag is a highly effective storage solution
               designed to prevent moisture and oxygen from entering, ensuring
