@@ -68,7 +68,7 @@ const Header = () => {
             <div className="flex-col w-2/3 h-full bg-white bg-opacity-100">
               <div className="absolute top-0 right-0 pt-1 pr-6">
                 <div onClick={() => setToggleDropDown((prev) => !prev)}>
-                  <XMarkIcon className="w-8 h-8 text-red-600 hover:text-slate-900" />
+                  <XMarkIcon className="w-8 h-8 text-black hover:text-slate-900" />
                 </div>
               </div>
               <div className="flex flex-col items-center w-full h-full justify-">

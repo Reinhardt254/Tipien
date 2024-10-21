@@ -40,7 +40,7 @@ const Products = () => {
         </div>
       </section>
 
-      <section className="pt-20 pb-32 max-sm:pb-10">
+      <section className="pt-20 pb-32 max-sm:pb-10 max-sm:pt-5">
         <div className="width-max grid grid-cols-2 gap-10 max-sm:grid-cols-1">
           <div className="bg-white rounded-b-md shadow rounded-sm p-5 flex flex-col justify-center items-center">
             <Image
