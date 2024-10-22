@@ -63,7 +63,7 @@ const Products = () => {
 
           <div className="bg-white rounded-b-md shadow rounded-sm p-5 flex flex-col justify-center items-center">
             <Image
-              src="/3sacks.png"
+              src="/pk300.png"
               height={500}
               width={500}
               alt="Good looking agricultural products"
@@ -82,11 +82,11 @@ const Products = () => {
 
           <div className="bg-white rounded-b-md shadow rounded-sm p-5 flex flex-col justify-center items-center">
             <Image
-              src="/sackscollection.png"
+              src="/pk500.png"
               height={900}
               width={900}
               alt="Good looking agricultural products"
-              className="w-72 h-auto min-h- rounded-t-sm"
+              className="w-full h-auto min-h- rounded-t-sm"
             />
             <h2 className="text-2xl pt-5">Pink Panel 140 Grams</h2>
             <p className="text-lg text-gray-800">
@@ -129,7 +129,7 @@ const Products = () => {
         <div className="text-4xl max-sm:text-2xl  text-center pb-5">
           Reach out to us today
         </div>
-        <Button value="CONTACT US" />
+        <Button value="CONTACT US" params="/contact" />
       </section>
     </main>
   );

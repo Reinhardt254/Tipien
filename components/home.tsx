@@ -48,14 +48,16 @@ const HomeLayout = () => {
             WHAT WE DO
           </h2>
           <h3 className="text-4xl max-sm:text-2xl pt-5 font-bold">
-            Tipien Company Limited 
+            Tipien Company Limited
           </h3>
-          <h3 className="text-2xl pt-5 font-light">Transforming food storage in the agricultural sector</h3>
+          <h3 className="text-2xl pt-5 font-light">
+            Transforming food storage in the agricultural sector
+          </h3>
           <p className="py-5 pr-0 max-sm:pt-5 max-sm:pb-8 text-center">
             Advanced, durable, accessible, Transformative
           </p>
 
-          <div className="grid grid-cols-3 gap-y-2 width-max max-md:grid-cols-1 pt-10">
+          <div className="grid grid-cols-3 gap-y-2 width-max max-md:grid-cols-1 pt-10 pb-16">
             <div className="secondary-colour mr-2 p-5 rounded-xl flex flex-col justify-start items-center max-sm:m-0 shadow-2xl">
               <Image
                 src="/storage.png"
@@ -66,9 +68,10 @@ const HomeLayout = () => {
               />
               <h4 className="text-green-700 text-center pt-2">Custom bags</h4>
               <p className="text-slate-700 text-lg text-center pt-2">
-                With years of experience in the agricultural storage industry,
-                we understand the unique challenges farmers face and offer
-                practical solutions tailored to their needs.
+                For farmers with unique needs, Tipien offers customization
+                options to ensure that specific storage challenges are met. This
+                service is tailored for bulk buyers or farmers dealing with
+                specialized crops.
               </p>
             </div>
             <div className="secondary-colour mr-2 p-5 rounded-xl flex flex-col justify-start items-center max-sm:m-0 shadow-2xl">
@@ -83,9 +86,10 @@ const HomeLayout = () => {
                 Storage Solutions
               </h4>
               <p className="text-slate-700 text-lg text-center pt-2">
-                With years of experience in the agricultural storage industry,
-                we understand the unique challenges farmers face and offer
-                practical solutions tailored to their needs.
+                Tipien offers specialized bags designed to store grains such as
+                maize, rice, wheat, and beans. These bags are manufactured to
+                protect the grains from pests, moisture, and mold, ensuring a
+                longer shelf life and maintaining quality.
               </p>
             </div>
             <div className="secondary-colour mr-2 p-5 rounded-xl flex flex-col justify-start items-center max-sm:m-0 shadow-2xl">
@@ -100,16 +104,16 @@ const HomeLayout = () => {
                 Countrywide Delivery
               </h4>
               <p className="text-slate-700 text-lg text-center pt-2">
-                With years of experience in the agricultural storage industry,
-                we understand the unique challenges farmers face and offer
-                practical solutions tailored to their needs.
+                Through our easy-to-navigate online platform, farmers can browse
+                and purchase storage solutions from the comfort of their homes.
+                We offer fast, reliable delivery services, ensuring that our
+                products reach every corner of the country promptly.
               </p>
             </div>
           </div>
 
-          <div className="pt-20">
-            <Button value="LEARN MORE" />
-          </div>
+            <Button value="LEARN MORE" params="/about" />
+    
         </div>
       </section>
 
@@ -129,13 +133,13 @@ const HomeLayout = () => {
               OUR PRODUCTS CATALOGUE
             </h2>
             <p className="text-center py-2 text-lg">
-              With a mission to ensure farmers preserve their crops effectively,
-              Tipien offers a wide range of durable and affordable storage bags
-              designed to meet the specific needs of both small-scale and
-              large-scale farmers.
+              Explore Tipien’s durable, affordable storage bags for efficient
+              crop preservation. Tailored for farmers of all sizes, our
+              solutions enhance post-harvest management. Visit our online
+              platform to safeguard your harvest today!
             </p>
 
-            <Button value="LEARN MORE" />
+            <Button value="LEARN MORE" params="/products" />
           </div>
         </div>
       </section>
@@ -226,7 +230,7 @@ const HomeLayout = () => {
         <div className="text-4xl max-sm:text-2xl  text-center pb-5">
           Reach out to us today
         </div>
-        <Button value="CONTACT US" />
+        <Button value="CONTACT US" params="/contact" />
       </section>
     </main>
   );
