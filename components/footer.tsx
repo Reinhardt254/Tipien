@@ -1,9 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
   return (
-    <main className="min-w-full relative z-20">
+    <main className="w-full h-auto relative z-20">
       <div className="footer-layout-divider z-10">
         <svg
           data-name="Layer 1"
@@ -17,37 +18,43 @@ const Footer = () => {
           ></path>
         </svg>
       </div>
-      <div className="pt-10 pb-10 bg-black w-full z-10">
 
+      <div className="pt-20 pb-10 bg-black w-full z-10 max-sm:pt-0">
         <div className="flex flex-col justify-around pb-10 mx-10 border-b sm:flex-row md:flex">
-          <section className="flex flex-col max-sm:w-full max-sm:justify-center max-sm:items-center">
-            <div className="text-white">Tipien</div>
+          <section className="h-auto flex justify-start items-start max-sm:justify-center">
+              <Image
+                src="/tpb.png"
+                alt="logo"
+                width={1600}
+                height={1600}
+                className="lg:w-72 h-auto md:w-52 max-sm:w-60 p-0"
+              />
           </section>
 
-          <section className="flex flex-col max-sm:w-full max-sm:justify-center max-sm:items-center max-sm: py-5">
-          <Link
+          <section className="flex flex-col max-sm:w-full max-sm:justify-center max-sm:items-center max-sm:py-5">
+            <Link
               href="/"
               className="mx-8 rounded-sm font-medium pb-3 text-white hover:text-green-700"
             >
-                Home
+              Home
             </Link>
             <Link
               href="/about"
               className="mx-8 rounded-sm font-medium pb-3 text-white hover:text-green-700"
             >
-                About
+              About
             </Link>
             <Link
               href="/products"
               className="mx-8 rounded-sm font-medium pb-3 text-white hover:text-green-700"
             >
-                Products
+              Products
             </Link>
             <Link
               href="/contact"
               className="mx-8 rounded-sm font-medium pb-3 text-white hover:text-green-700"
             >
-                Contact
+              Contact
             </Link>
           </section>
 

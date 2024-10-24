@@ -2,24 +2,25 @@
 import Link from "next/link";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
+import Image from "next/image";
 
 const Header = () => {
   const [toggleDropDown, setToggleDropDown] = useState(false);
 
   return (
-    <main className="flex flex-row justify-between items-center w-full bg-white md:px-40 md:py-2 relative">
+    <main className="flex flex-row justify-between items-cente w-full bg-white lg:px-32 md:px-10 md:py-2 relative">
       <Link
-        className="flex justify-center items-center pl-5 text-lg font-bold text-gray-950"
+        className="flex justify-center items-center pl-5 text-lg font-bold text-gray-950 w-auto"
         href="/"
       >
-        <div className="h-16 flex justify-center items-center text-xl">
-          {/* <Image
-            src="/assets/photos/logo.jpg"
+        <div className="h-auto w-full flex justify-center items-center text-xl">
+          <Image
+            src="/tp.png"
             alt="logo"
-            width={60}
-            height={60}
-          /> */}
-          Tipien
+            width={1600}
+            height={800}
+            className="h-20 w-full max-sm:h-16"
+          />
         </div>
       </Link>
 
@@ -30,7 +31,7 @@ const Header = () => {
       </section>
 
       {/* ================Large devices================ */}
-      <section className="flex flex-row items-center justify-center px-3 max-sm:hidden max-md:hidden">
+      <section className="flex flex-row items-center justify-center px-3 max-sm:hidden max-md:hidden w-auto">
         <Link
           href="/about"
           className="flex items-center justify-center  mx-8 rounded-sm hover:border-hidden"

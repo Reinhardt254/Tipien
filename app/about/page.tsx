@@ -41,7 +41,7 @@ const About = () => {
       </section>
 
       <section className="flex flex-row w-full py-16 max-sm: pt-0 justify-between items-center width-max max-sm:flex-col">
-        <div className="w-1/2 max-sm:w-full max-sm:px-2">
+        <div className="w-1/2 max-sm:w-full max-sm:px-2 md:px-5 ">
           <h2 className="max-sm:text-center">WHO WE ARE</h2>
           <p className="py-5 pr-10 max-sm:p-0 max-sm:pb-5 max-sm:pt-2 max-sm:text-center">
             Tipien Company Limited is a dynamic and innovative enterprise
@@ -55,7 +55,7 @@ const About = () => {
             small-scale and large-scale farmers.
           </p>
           <div className="flex justify-start items-center max-sm:justify-center">
-            <Button value="OUR PRODUCTS" params="/products"/>
+            <Button value="OUR PRODUCTS" params="/products" />
           </div>
         </div>
         <div className="w-1/2 pl-5 max-sm:w-full max-sm:p-0 max-sm:pt-10">
@@ -74,14 +74,19 @@ const About = () => {
           <div className=" bg-white w-1/3 h-2/3 max-sm:w-full md:min-h-[300px] rounded-lg p-5 max-sm:py-10 m-2 flex flex-col justify-center items-center">
             <h2 className="text-center font-normal text-xl">OUR MISSION</h2>
             <p className="text-center py-2 text-lg text-slate-900">
-              To empower farmers by offering high quality storage bags that preserve the quality of harvested produce, reduce wastage, and enhance food security through accessible online distribution.
+              To empower farmers by offering high quality storage bags that
+              preserve the quality of harvested produce, reduce wastage, and
+              enhance food security through accessible online distribution.
             </p>
           </div>
 
           <div className=" bg-white w-1/3 max-sm:w-full md:min-h-[300px] rounded-lg p-5 max-sm:py-10 m-2 flex flex-col justify-center items-center">
             <h2 className="text-center font-normal text-xl">OUR VISION</h2>
             <p className="text-center py-2 text-lg text-slate-900">
-              To be the leading provider of innovative, sustainable and affordable storage solutions for farmers across the country, promoting better post-harvest management and minimizing food loses.
+              To be the leading provider of innovative, sustainable and
+              affordable storage solutions for farmers across the country,
+              promoting better post-harvest management and minimizing food
+              loses.
             </p>
           </div>
 
@@ -146,7 +151,7 @@ const About = () => {
         <div className="text-4xl max-sm:text-2xl  text-center pb-5">
           Reach out to us today
         </div>
-        <Button value="CONTACT US" params="/contact"/>
+        <Button value="CONTACT US" params="/contact" />
       </section>
     </main>
   );
