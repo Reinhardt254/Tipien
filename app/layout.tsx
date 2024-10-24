@@ -19,6 +19,15 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Tipien",
   description: " Harvest Smarter, Store Better With Tipien Storage Solutions",
+  icons:{
+    icon: "/tpicon.png",
+    apple:"/tpicon.png"
+  },
+  keywords:[
+    "maize bags",
+    "gunia",
+    "airtight bags",
+   ]
 };
 
 export default function RootLayout({
